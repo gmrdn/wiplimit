@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Board from './components/Board';
+import KanbanBoard from './components/KanbanBoard';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Board />, document.getElementById('root'));
+ReactDOM.render(<KanbanBoard />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

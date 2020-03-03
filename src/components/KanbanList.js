@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class List extends Component {
+export default class KanbanList extends Component {
     constructor(props) {
         super(props);
     }

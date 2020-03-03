@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import './Board.css'
-import List from './List'
+import './KanbanBoard.css'
+import KanbanList from './KanbanList'
 
-export default class Board extends Component {
+export default class KanbanBoard extends Component {
     constructor(props) {
         super(props);
         if (localStorage.getItem('lists')) {
@@ -76,7 +76,7 @@ export default class Board extends Component {
     render() {
         const lists = this.state.lists.map((list, index) => (
             <li className='list-wrapper' key={index}>
-                <List {...list} />
+                <KanbanList {...list} />
             </li>
         ));
 
