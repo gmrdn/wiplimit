@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import './KanbanBoard.css'
+import './Board.css'
 import KanbanList from './KanbanList'
 
-export default class KanbanBoard extends Component {
+export default class Board extends Component {
     constructor(props) {
         super(props);
         if (localStorage.getItem('lists')) {
